@@ -23,6 +23,10 @@ h2 {
     font: 24pt sans-serif;
     font-weight: 600;
 }
+p {
+  font: 18pt sans-serif;
+  font-weight: 500;
+}
 button {
   background-color: #054159;
   border: none;
@@ -85,7 +89,7 @@ button:hover {
   padding: 1%;
 }
 .top {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .heroImg {
     width: 100%;
@@ -213,6 +217,10 @@ footer {
   height: 255px;
   background-color: #8FA5C7;
 }
+.margin {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 @media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -297,6 +305,9 @@ footer {
     .logo{
       padding: none;
       width: 30%;
+    }
+    .top {
+      margin-top: 100px;
     }
     p {
       font-size: small;
